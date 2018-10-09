@@ -1,0 +1,398 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+#main{
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+#top{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 40%;
+    background-color: red;
+}
+#up{
+    width: 100%;
+}
+#userPictureBox{
+    position: absolute;
+    width: 12.5%;
+    height: 0%;
+    padding-bottom: 12.5%;
+    left: 43.75%;
+    margin-top: 5%;
+}
+#picture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+#name{
+    position: absolute;
+    width: 20%;
+    left: 40%;
+    margin-top: 19%;
+    font-size: xx-small;
+    color: white;
+    text-align: center;
+    font-weight: 800;
+    font-family: 宋体;
+}
+#introduce{
+    position: absolute;
+    width: 40%;
+    left: 30%;
+    margin-top: 22%;
+    font-size: 5%;
+    text-align: center;
+    color: white;
+}
+.unattention{
+    position: absolute;
+    width: 15%;
+    left: 32.5%;
+    height: 0%;
+    padding-bottom: 5%;
+    line-height: 260%;
+    margin-top: 30%;
+    font-weight: bold;
+    color: white;
+    font-size: xx-small;
+    text-align: center;
+    background-color: darkorange;
+    border-radius: 5%;
+}
+.unattention:hover{
+    cursor: pointer;
+}
+.attention{
+    position: absolute;
+    width: 10%;
+    margin-top: 30%;
+    color: white;
+    font-size: xx-small;
+    font-weight: bold;
+    text-align: center;
+    background-color: grey;
+}
+#personInfo{
+    position: absolute;
+    width: 15%;
+    height: 0%;
+    padding-bottom: 5%;
+    line-height: 260%;
+    margin-top: 30%;
+    left: 52.5%;
+    color: white;
+    font-weight: bold;
+    font-size: xx-small;
+    text-align: center;
+    background-color: grey;
+    border-radius: 5%;
+}
+#personInfo:hover{
+    cursor: pointer;
+}
+.story{
+    position: relative;
+    width: 100%;
+    margin-top: 1.5%;
+    background-color: aqua;
+    padding-top: 0.25%;
+}
+.storyUserPictureBox{
+    position: relative;
+    width: 7%;
+    height: 0px;
+    padding-bottom: 7%;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: inline-block;
+}
+.storyUserPicture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.name-timeE{
+    display: inline-block;
+    width: 85%;
+    margin-left: 1%;
+}
+.storyUserName{
+    font-size: small;
+    font-weight: bold;
+    font-family: 楷体;
+    color: black;
+}
+.storyTime{
+    font-size: 5%;
+}
+.storyTitle{
+    width: 75%;
+    margin-left: 20%;
+    text-align: center;
+    font-size: small;
+    margin-top: 2%;
+}
+.storyIntroduce{
+    width: 85%;
+    margin-left: 15%;
+    text-align: center;
+    font-size: xx-small;
+    margin-top: 2%;
+}
+.iconMenu{
+    width: 100%;
+    height: 0px;
+    padding-bottom: 7%;
+    margin-top: 2%;
+    text-align: center;
+    line-height: 50%;
+    border-top-style: solid;
+    border-top-color: lightgray;
+    border-top-width: 0.5px;
+    border-bottom-style: solid;
+    border-bottom-color: lightgray;
+    border-bottom-width: 0.5px
+}
+.iconItem{
+    display: inline-block;
+    width: 24%;
+    text-align: center;
+    padding-top: 0.7%;
+    margin-top: 0.75%;
+}
+.iconLine{
+    border-left-style: solid;
+    border-left-width: 0.5px;
+    border-left-color: lightgray;
+    line-height: 100%;
+
+}
+.iconBox{
+    width: 10%;
+    height: 0px;
+    padding-bottom: 10%;
+    margin-top: 5%;
+    display: inline-block;
+}
+.icon{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0%;
+}
+.icon:hover{
+    cursor: pointer;
+}
+.count{
+    font-size: 5%;
+    display: inline-block;
+}
+.count:hover{
+    cursor: pointer;
+}
+.storyCommentShow{
+    display: none;
+    width: 100%;
+    background-color: lightblue;
+}
+.storyCommentEdit{
+    width: 100%;
+    text-align: center;
+}
+.commentInput{
+
+}
+.commentButton{
+
+}
+.storyComment{
+
+}
+.picture-name-time{
+
+}
+.commentUserPicture{
+    position: absolute;
+    display: inline-block;
+    width: 5%;
+    text-align: left;
+    left: 2%;
+    top: 6%;
+    margin-top: 0px;
+}
+.commentUserPicture:hover{
+    cursor: pointer;
+}
+.commentPictureBox{
+    width: 100%;
+    height: 0px;
+    padding-bottom: 100%;
+
+}
+.picture{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+}
+.picture:hover{
+    cursor: pointer;
+}
+.name-time{
+    display: inline-block;
+    width: 85%;
+    text-align: left;
+    margin-left: 2%;
+}
+.commentName{
+    margin-left: 0%;
+    margin-top: 2%;
+    text-align: left;
+    font-size: small;
+    color: darkgoldenrod;
+    display: inline-block;
+}
+.commentName:hover{
+    cursor: pointer;
+}
+.commentTime{
+    margin-left: 8%;
+    margin-top: 2%;
+    text-align: left;
+    font-size: xx-small;
+    display: inline-block;
+}
+.commentContent{
+    font-size: x-small;
+    left: 8%;
+}
+.title:hover{
+    cursor: pointer;
+}
+.getReply{
+    font-size: xx-small;
+    text-align: center;
+}
+.getReply:hover{
+    cursor: pointer;
+}
+.reply{
+    display: none;
+    text-align: center;
+}
+.replyInput{
+
+}
+.replyButton{
+
+}
+.commentLine{
+
+}
+.replyText{
+    display: inline-block;
+    margin-left: 50%;
+    font-size: xx-small;
+}
+.replyText:hover{
+    cursor:pointer;
+    color: aqua;
+}
+.commentPoint{
+    display: inline-block;
+    width: 10%;
+    margin-left: 1%;
+}
+.commentPointBox{
+    display: inline-block;
+    width: 30%;
+    height: 0%;
+    padding-bottom: 30%;
+}
+.point{
+    width: 100%;
+    height: 100%;
+}
+.point:hover{
+    cursor: pointer;
+}
+.commentPointCount{
+    display: inline-block;
+    font-size: xx-small;
+}
+.replyone{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    background-color: deeppink;
+    text-align: left;
+}
+.replyPictureBox{
+    position: absolute;
+    width: 6%;
+    height: 0px;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-bottom: 6%;
+    display: inline-block;
+}
+.replyPicture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.replyPicture:hover{
+    cursor: pointer;
+}
+.replyTime{
+    font-size: xx-small;
+    left: 10%;
+    display: inline-block;
+}
+.replyUserName{
+    font-size: x-small;
+    color: darkgoldenrod;
+    display: inline-block;
+}
+.replyUserName:hover{
+    cursor: pointer;
+}
+.name-content{
+    display: inline-block;
+    left: 10%;
+    font-size: xx-small;
+    width: 90%;
+}
+.huifu{
+    display: inline-block;
+    font-size: xx-small;
+}
+.replyHuifu{
+    font-size: xx-small;
+    left: 60%;
+    display: inline-block;
+}
+.replyHuifu:hover{
+    cursor:pointer;
+    color: aqua;
+}
+.replyReply{
+
+}
+.replyReplyButton{
+
+}
+.replyReplyShow{
+    display: none;
+    text-align: center;
+}

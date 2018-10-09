@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.title{
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+    font-family: 宋体;
+}
+.contentE{
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+}
+.content{
+    position: relative;
+    width: 80%;
+}
+.xyE{
+    position: relative;
+    margin-top: 1%;
+    text-align: center;
+}
+.xE{
+
+}
+.yE{
+
+}
+.buttonE{
+    position: relative;
+    margin-top: 3%;
+    text-align: center;
+}
+.xyTitle{
+    position: relative;
+    margin-top: 5%;
+    text-align: center;
+}
+#content{
+
+}
+#x{
+
+}
+#y{
+
+}
+#button{
+    position: relative;
+    width: 30%;
+    border: 0px;
+    background-color: aqua;
+    color: white;
+    font-size: x-large;
+}
+#button:hover{
+    cursor: pointer;
+}
+.info{
+    position: relative;
+    text-align: center;
+    color: red;
+    display: none;
+}

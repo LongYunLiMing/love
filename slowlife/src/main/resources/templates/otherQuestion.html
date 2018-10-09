@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>交友匹配</title>
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/jquery.cookie.js"></script>
+    <script src="js/otherQuestion.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/otherQuestion.css">
+</head>
+<body>
+<div class="up">
+    <div id="picture-name">
+        <div id="pictureBox">
+            <img id="picture" src="http://127.0.0.1:9000/static/wenjin.jpeg">
+        </div>
+        <div id="name">南司</div>
+    </div>
+    <div id="info">让我们来确认一下眼神，看是不是对的人吧！</div>
+</div>
+<div id="questionShow">
+    <div class="question">
+        <div class="pictureBox">
+            <img class="picture" src="http://127.0.0.1:9000/static/wenjin.jpeg">
+        </div>
+        <div class="name">南司</div>
+        <div class="info">来自</div>
+        <div class="storyButton"></div>
+        <div class="questionContent">如果你是李白，你会选择露娜还是王昭君？</div>
+        <div class="questionAnswer">
+            <textarea id="answerID" cols="59" rows="3" placeholder="赶快来确认下眼神吧！"></textarea>
+        </div>
+        <button onclick="answer(ID)">提交</button>
+    </div>
+</div>
+</body>
+</html>

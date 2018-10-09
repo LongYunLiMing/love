@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.name{
+
+}
+.introduce{
+
+}
+.picture{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+}
+.userPictureE{
+    position: relative;
+    left: 10%;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+}
+.userPictureBox{
+    width: 30%;
+    height: 0px;
+    padding-bottom: 30%;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    left: 50%;
+}
+.userInfoE{
+    position: relative;
+    left: 10%;
+    width: 60%;
+    height: 100%;
+    display: inline-block;
+}
+.userSession{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    text-align: center;
+}
+.userSession:hover{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    background-color: blue;
+    text-align: center;
+}
+.friendDelete{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 90%;
+    display: inline-block;
+    text-align: center;
+}
+.friendDelete:hover{
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    left: 90%;
+    display: inline-block;
+    text-align: center;
+    background-color: red;
+}
+.pictureNameIntroduce{
+    text-align: left;
+    background-color: darkmagenta;
+    width: 100%;
+    height: auto;
+    position: relative;
+}

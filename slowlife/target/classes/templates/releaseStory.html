@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>故事发布界面</title>
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/jquery.cookie.js"></script>
+    <script src="js/releaseStory.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/releaseStory.css">
+</head>
+<body>
+    <div id="releaseE">
+        <div id="typeSelectE">
+            <div class="type"><input name="type" type="radio" value="爱情">爱情</div>
+            <div class="type"><input name="type" type="radio" value="爱情">亲情</div>
+            <div class="type"><input name="type" type="radio" value="爱情">友情</div>
+            <div class="type"><input name="type" type="radio" value="爱情">励志</div>
+            <div class="type"><input name="type" type="radio" value="爱情">其它</div>
+        </div>
+        <div id="titleE">
+            <div>
+                <textarea id="title" placeholder="给你的故事起一个标题吧！"></textarea>
+            </div>
+        </div>
+        <div id="contentE">
+            <div id="storyShow"><!--故事内容显示区-->
+
+            </div>
+            <div>
+                <textarea id="content" oninput="contentInput()" onblur="contentBlur()" onfocus="contentFocus()" placeholder="告诉大家你的故事，没准下个故事就发生在你们之间"></textarea>
+            </div>
+            <div><!--工具区-->
+                <div class="text-work-e"><!--文本工作区-->
+
+                    <div class="text-work"><!--文本工具-->
+
+                        <div class="text-width"><!--文本宽度选择-->
+                            <div>
+                                <input id="text-width-select" class="text-select" type="range" value="80" min="10" max="100" onmouseup="textWidth()"/>
+                            </div>
+                            <div id="text-width-show" onclick="textWidth()">
+                                宽度 80
+                            </div>
+                        </div>
+
+                        <div class="text-width"><!--文本左边距选择-->
+                            <div>
+                                <input id="text-left-select" class="text-select" type="range" value="10" min="0" max="20" onmouseup="textLeft()"/>
+                            </div>
+                            <div id="text-left-show" onclick="textLeft()">
+                                边距10
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="text-button"><!--文本插入按钮-->
+                        <div id="textLine" class="textLineSelected" onclick="textLine()"> <!--独占一行-->
+                            <div style="position: absolute;width: 100%;height: 100%;top: 30%">独行</div>
+                        </div>
+                        <div id="textInline" class="textInline" onclick="textInline()"><!--并行-->
+                            <div style="position: absolute;width: 100%;height: 100%;top: 30%">并行</div>
+                        </div>
+                    </div>
+                </div>
+                <hr width="100%" size="5">
+                <div class="text-work-e"><!--图片工作区-->
+                    <div class="text-work"><!--图片工具-->
+                        <form id="upload" enctype="multipart/form-data" onsubmit="return false">
+                            <input type="file" id="file" name="file">
+                            <div class="pictureMenu" onclick="uploadPictureP()"><div>普通边框</div></div>
+                            <div class="pictureMenu" onclick="uploadPictureZ()"><div>正方形边框</div></div>
+                            <div class="pictureMenu" onclick="uploadPictureY()"><div>圆形边框</div></div>
+                        </form>
+                    </div>
+                    <div class="text-button"><!--图片插入按钮-->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="releaseButton">
+            <div>
+                <button id="button" onclick="releaseStory()">发布故事</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

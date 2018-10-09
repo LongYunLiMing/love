@@ -1,0 +1,9 @@
+.pictureBox{
+    width: 20%;
+    height: 0px;
+    padding-bottom: 20%;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    left: 60%;
+}

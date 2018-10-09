@@ -1,0 +1,209 @@
+*{
+    position: relative;
+    margin: 0px;
+    padding: 0px;
+}
+#menu{
+    position: absolute;
+    width: 15%;
+    left: 10%;
+    height: 0;
+    padding-bottom: 40%;
+    background-color: deeppink;
+    position: fixed;
+}
+#show{
+    width: 60%;
+    left: 25%;
+    background-color: aqua;
+}
+.story{
+
+}
+.userPicture{
+
+}
+.userPicture:hover{
+    cursor: pointer;
+}
+.pictureBox{
+
+}
+.picture-name-time{
+
+}
+.commentUserPicture{
+    position: absolute;
+    display: inline-block;
+    width: 5%;
+    text-align: left;
+    left: 2%;
+    top: 6%;
+    margin-top: 0px;
+}
+.commentUserPicture:hover{
+    cursor: pointer;
+}
+.commentPictureBox{
+    width: 100%;
+    height: 0px;
+    padding-bottom: 100%;
+
+}
+.picture{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 50%;
+}
+.picture:hover{
+    cursor: pointer;
+}
+.name-time{
+    display: inline-block;
+    width: 85%;
+    text-align: left;
+    margin-left: 2%;
+}
+.commentName{
+    margin-left: 0%;
+    margin-top: 2%;
+    text-align: left;
+    font-size: small;
+    color: darkgoldenrod;
+    display: inline-block;
+}
+.commentName:hover{
+    cursor: pointer;
+}
+.commentTime{
+    margin-left: 2%;
+    margin-top: 2%;
+    text-align: left;
+    font-size: xx-small;
+    display: inline-block;
+}
+.commentContent{
+    margin-top: 2%;
+    font-size: x-small;
+    left: 1%;
+}
+.title:hover{
+    cursor: pointer;
+}
+.getReply{
+    font-size: xx-small;
+}
+.getReply:hover{
+    cursor: pointer;
+}
+.reply{
+    display: none;
+}
+.replyInput{
+
+}
+.replyButton{
+
+}
+.commentLine{
+
+}
+.replyText{
+    display: inline-block;
+    margin-left: 45%;
+    font-size: xx-small;
+}
+.replyText:hover{
+    cursor:pointer;
+    color: aqua;
+}
+.commentPoint{
+    display: inline-block;
+    width: 20%;
+    margin-left: 1%;
+}
+.commentPointBox{
+    display: inline-block;
+    width: 15%;
+    height: 0%;
+    padding-bottom: 15%;
+}
+.point{
+    width: 100%;
+    height: 100%;
+}
+.point:hover{
+    cursor: pointer;
+}
+.commentPointCount{
+    display: inline-block;
+    font-size: xx-small;
+}
+.replyone{
+    position: relative;
+    width: 80%;
+    margin-left: 10%;
+    background-color: deeppink;
+    text-align: left;
+}
+.replyPictureBox{
+    position: absolute;
+    width: 6%;
+    height: 0px;
+    margin-top: 1%;
+    margin-left: 1%;
+    padding-bottom: 6%;
+    display: inline-block;
+}
+.replyPicture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.replyPicture:hover{
+    cursor: pointer;
+}
+.replyTime{
+    font-size: xx-small;
+    left: 10%;
+    display: inline-block;
+}
+.replyUserName{
+    font-size: x-small;
+    color: darkgoldenrod;
+    display: inline-block;
+}
+.replyUserName:hover{
+    cursor: pointer;
+}
+.name-content{
+    display: inline-block;
+    left: 10%;
+    font-size: xx-small;
+    width: 90%;
+}
+.huifu{
+    display: inline-block;
+    font-size: xx-small;
+}
+.replyHuifu{
+    font-size: xx-small;
+    left: 60%;
+    display: inline-block;
+}
+.replyHuifu:hover{
+    cursor:pointer;
+    color: aqua;
+}
+.replyReply{
+
+}
+.replyReplyButton{
+
+}
+.replyReplyShow{
+    display: none;
+    text-align: center;
+}

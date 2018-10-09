@@ -1,0 +1,182 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#releaseE{
+    position: relative;
+    width: 70%;
+    height: 0px;
+    left: 15%;
+    background-color: red;
+}
+#typeSelectE{
+    position: relative;
+    width: 100%;
+    height: 30px;
+    top: 30px;
+    background-color: yellow;
+}
+#titleE{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin-top: 40px;
+    background-color: blue;
+}
+#contentE{
+    position: relative;
+    width: 100%;
+    margin-top: 40px;
+    background-color: chartreuse;
+}
+#releaseButton{
+    position: relative;
+    width: 100%;
+    height: 20px;
+    margin-top: 25px;
+    background-color: aqua;
+    text-align: center;
+}
+.type{
+    display: inline-block;
+    margin-left: 10%;
+}
+#title{
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+#content{
+    position: relative;
+    width: 80%;
+    height: 200px;
+    left: 10%;
+}
+#storyShow{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+#button{
+
+}
+.text-work-e{
+    position: relative;
+    width: 100%;
+}
+.text-work{
+    position: relative;
+    width: 80%;
+    display: inline-block;
+}
+.text-width{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+}
+.text-button{
+    position: relative;
+    width: 19%;
+    height: 100%;
+    display: inline-block;
+}
+
+.text-select{
+    position: relative;
+    width: 80%;
+    background-color: blue;
+}
+.textLine{
+    width: 35%;
+    height: 0px;
+    padding-bottom: 35%;
+    border-radius: 50%;
+    background-color: crimson;
+    margin-left: 2%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.textLineSelected{
+    width: 45%;
+    height: 0px;
+    padding-bottom: 45%;
+    border-radius: 50%;
+    background-color: crimson;
+    margin-left: 2%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+#textLine:hover{
+    cursor: pointer;
+}
+.textInline{
+    width: 35%;
+    height: 0px;
+    padding-bottom: 35%;
+    border-radius: 50%;
+    background-color: crimson;
+    margin-left: 2%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.textInlineSelected{
+    width: 45%;
+    height: 0px;
+    padding-bottom: 45%;
+    border-radius: 50%;
+    background-color: crimson;
+    margin-left: 2%;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+}
+.textInline:hover{
+    cursor: pointer;
+}
+.pictureMenu{
+    position: relative;
+    width: 10%;
+    height: 0px;
+    padding-bottom: 10%;
+    background-color: darkorchid;
+    display: inline-block;
+    margin-left: 10%;
+    top: 0px;
+}
+.pictureMenu:hover{
+    cursor: pointer;
+}
+.pictureBoxP{
+    position: relative;
+    width: 100%;
+    height: 0px;
+    padding-bottom: 140%;
+    overflow: hidden;
+    margin: 0;
+}
+.pictureBoxZ{
+    width: 100%;
+    height: 0px;
+    padding-bottom: 100%;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+}
+.pictureBoxY{
+    width: 100%;
+    height: 0px;
+    padding-bottom: 100%;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    border-radius: 50%;
+}
+.storyPicture{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}

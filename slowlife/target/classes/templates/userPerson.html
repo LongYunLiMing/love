@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户个人主页</title>
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/jquery.cookie.js"></script>
+    <script src="js/userPerson.js"></script>
+    <link rel="stylesheet" href="css/personInfo.css" type="text/css">
+    <link rel="stylesheet" href="css/userPerson.css" type="text/css">
+</head>
+<body style="text-align: center;">
+<div style="text-align: center" class="infoBackground">
+    <div id="readInfo">
+        <a href=""><img src="" alt="未读信息"></a>
+        <span style="color: red" id="message">0</span>
+    </div>
+    <br>
+    <div class="pictureBox">
+        <img src="" alt="你还没有上传头像哦！" id="userPicture" class="userPicture">
+    </div>
+    <div id="openRelease" class="openRelease" onclick="openRelease()"><!--发布界面开关-->
+    </div>
+    <div id="releaseE" class="releaseE"><!--发布界面-->
+        <div id="storyRelease" onclick="window.open('releaseStory.html')"><div style="margin-top: 30%">故事</div></div>
+        <div id="loveRelease" onclick="window.open('releaseLove.html')"><div style="margin-top: 30%">表白</div></div>
+        <div id="moodRelease" onclick="window.open('releaseMood.html')"><div style="margin-top: 30%">心情</div></div>
+    </div><!--发布界面-->
+    <div>
+        <span id="name">用户名</span>
+    </div>
+    <br>
+    <div>
+        <span id="userText">个性签名</span>
+    </div>
+
+    <div id="menu">
+        <span class="menu-item">
+            <a href="userPerson.html">表白</a>
+            <span id="love">(0)</span>
+        </span>
+        <span class="menu-item">
+            <a href="personStory.html">故事</a>
+            <span id="story">(0)</span>
+        </span>
+        <span class="menu-item">
+            <a href="personMood.html">心情</a>
+            <span id="mood">(0)</span>
+        </span>
+        <span class="menu-item">
+            <a href="personFriend.html">好友</a>
+            <span id="friend">(0)</span>
+        </span>
+        <span class="menu-item">
+            <a href="personQuestion.html">问题</a>
+            <span id="question">(0)</span>
+        </span>
+    </div>
+</div>
+<div style="text-align: center;margin: auto"><!--单个表白内容-->
+    <div>
+        <a href="" style="margin-right: 20%">
+            <span>
+                <img id="pictureID" class="picture" src="http://127.0.0.1:9000/static/wenjin.jpeg" alt="用户头像">
+            </span>
+            <span id="nameID" class="name">南司</span>
+        </a>
+        <span>---2018-6-6---</span>
+        <a href="">
+            <span>
+                <img id="topictureID" class="topicture" src="http://127.0.0.1:9000/static/wenjin.jpeg" alt="对象用户头像">
+            </span>
+            <span id="tonameID" class="name">南司对象</span>
+        </a>
+    </div>
+    <div style="margin-top: 20px">
+        <span id="typeID" class="type">类型</span>
+        <span id="statusID" class="status">审核状态</span>
+    </div>
+    <div style="text-align: center">
+        <div id="titleID" class="title" onclick="getLoveInfo('ID')">标题</div>
+        <div id="contentID" class="content">内容</div>
+    </div>
+    <div style="text-align: center;margin-top: 80px">
+        <span>
+            <span>点赞<img class="icon" src="http://127.0.0.1:9000/icon/no.png"></span>
+            <span id="pointID">0</span>
+        </span>
+        <span style="margin-left: 10%;margin-right: 10%">
+            <span>浏览</span>
+            <span id="viewID">0</span>
+        </span>
+        <span>
+            <span>评论<a href="" id="commentURLID"><img class="icon" src="http://127.0.0.1:9000/icon/comment.png"></a></span>
+            <span id="commentID">0</span>
+        </span>
+    </div>
+    <hr class="loveLine" size="3px">
+</div>
+<div id="info" style="margin-top: 100px" onclick="more()"></div>
+</body>
+</html>

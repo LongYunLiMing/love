@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>用户个人主页</title>
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/jquery.cookie.js"></script>
+    <script src="js/personQuestion.js"></script>
+    <link rel="stylesheet" href="css/personInfo.css" type="text/css">
+    <link rel="stylesheet" href="css/personQuestion.css" type="text/css">
+</head>
+<body style="text-align: center;margin: 0px;padding: 0px">
+<div style="text-align: center" class="infoBackground">
+    <div id="answerInfo">问题回复<div id="answerCount">0</div></div>
+    <div id="readInfo">
+        <a href=""><img src="" alt="未读信息"></a>
+        <span style="color: red" id="message">0</span>
+    </div>
+    <br>
+    <div class="pictureBox">
+        <img src="" alt="你还没有上传头像哦！" id="userPicture" class="userPicture">
+    </div>
+    <div id="openRelease" class="openRelease" onclick="openRelease()"><!--发布界面开关-->
+    </div>
+    <div id="releaseE" class="releaseE"><!--发布界面-->
+        <div id="storyRelease" onclick="window.open('releaseStory.html')"><div style="margin-top: 30%">故事</div></div>
+        <div id="loveRelease" onclick="window.open('releaseLove.html')"><div style="margin-top: 30%">表白</div></div>
+        <div id="moodRelease" onclick="window.open('releaseMood.html')"><div style="margin-top: 30%">心情</div></div>
+    </div><!--发布界面-->
+    <div>
+        <span id="name">用户名</span>
+    </div>
+    <br>
+    <div>
+        <span id="userText">个性签名</span>
+    </div>
+
+    <div id="menu">
+        <span class="menu-item">
+            <a href="userPerson.html">表白</a>
+            <span id="love">(0)</span>
+        </span>
+        <span class="menu-item">
+            <a href="personStory.html">故事</a>
+            <span id="story">(0)</span>
+        </span>
+        <span class="menu-item">
+            <a href="personMood.html">心情</a>
+            <span id="mood">(0)</span>
+        </span>
+        <span class="menu-item">
+            <a href="personFriend.html">好友</a>
+            <span id="friend">(0)</span>
+        </span>
+        <span class="menu-item">
+            <a href="personQuestion.html">问题</a>
+            <span id="question">(0)</span>
+        </span>
+    </div>
+</div>
+<div><button class="openAddQuestionButton" onclick="openAddQuestion()">添加问题</button></div>
+<div id="addQuestionOfFree">
+    <div><textarea id="addQuestionInput" placeholder="赶快问出你的问题，寻找知己吧！"></textarea></div>
+    <div><button id="addQuestionButton" onclick="addQuestion()">立即添加</button></div>
+</div>
+
+<div id="info" style="margin-top: 100px" onclick="more()"></div>
+</body>
+</html>

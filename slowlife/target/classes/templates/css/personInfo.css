@@ -1,0 +1,114 @@
+#name{
+    font-size: small;
+    color: darkorange;
+    font-weight: bold;
+}
+#userText{
+    font-size: x-small;
+    color: white;
+}
+#menu{
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-top: 10%;
+    font-size: xx-small;
+}
+#readInfo{
+    margin-left: 94%;
+    font-size: xx-small;
+}
+#userPicture{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+}
+.infoBackground{
+    width: 100%;
+    height: auto;
+    background-color: aqua;
+}
+.pictureBox{
+    width: 10%;
+    height: 0px;
+    padding-bottom: 10%;
+    overflow: hidden;
+    margin: 0;
+    position: relative;
+    left: 45%;
+}
+.releaseE{
+    position: absolute;
+    width: 60%;
+    height: 20%;
+    left: 20%;
+    top: 0%;
+    background-color: floralwhite;
+    display: none;
+    text-align: left;
+}
+.openRelease{
+    width: 2%;
+    height: 0px;
+    padding-bottom: 2%;
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+    left: 48.5%;
+    top: -2%;
+    border-radius: 50%;
+    background-color: chocolate;
+}
+.openReleaseafter{
+    width: 2%;
+    height: 0px;
+    padding-bottom: 2%;
+    overflow: hidden;
+    margin: 0;
+    position: absolute;
+    left: 48.5%;
+    top: 18%;
+    border-radius: 50%;
+    background-color: chocolate;
+}
+#loveRelease{
+    position: relative;
+    display: inline-block;
+    background-color: chocolate;
+    width: 10%;
+    left: 33.5%;
+    height: 0px;
+    padding-bottom: 10%;
+    top: 10%;
+    border-radius: 50%;
+    text-align: center;
+}
+#storyRelease{
+    position: relative;
+    display: inline-block;
+    background-color: red;
+    height: 0px;
+    width: 10%;
+    left: 15%;
+    padding-bottom: 10%;
+    top: 10%;
+    border-radius: 50%;
+    text-align: center;
+}
+#moodRelease{
+    position: relative;
+    display: inline-block;
+    background-color: crimson;
+    width: 10%;
+    left: 51%;
+    height: 0px;
+    padding-bottom: 10%;
+    top: 10%;
+    border-radius: 50%;
+    text-align: center;
+}
+#loveRelease,#storyRelease,#moodRelease,#openRelease,.openReleaseafter:hover{
+    cursor: pointer;
+}

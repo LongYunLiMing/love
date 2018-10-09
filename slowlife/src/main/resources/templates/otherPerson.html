@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>访问他人主页</title>
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/jquery.cookie.js"></script>
+    <script src="js/otherPerson.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/otherPerson.css">
+</head>
+<body>
+<div id="main">
+    <div id="top">
+        <div></div>
+        <div id="userPictureBox">
+            <img id="picture" src="http://127.0.0.1:9000/static/wenjin.jpeg">
+        </div>
+        <div id="name">南司</div>
+        <div id="introduce">愿得一人心，白首不相离</div>
+        <div id="attention" class="unattention">+关注</div>
+        <div id="personInfo">发私信</div>
+    </div>
+    <div id="up">
+        <div id="storyID" class="story">
+            <div class="storyUserPictureBox">
+                <img class="storyUserPicture" src="http://127.0.0.1:9000/static/wenjin.jpeg"></img>
+            </div>
+            <div class="name-timeE">
+                <div class="storyUserName">
+                    南司
+                </div>
+                <div class="storyTime">
+                    6月6日 6:6
+                </div>
+            </div>
+            <div class="storyTitle">标题</div>
+            <div class="storyIntroduce">故事简介</div>
+            <div class="iconMenu">
+                <div class="iconItem"><!--收藏-->
+                    <div class="iconBox">
+                        <img class="icon" src="http://127.0.0.1:9000/icon.nav.png">
+                    </div>
+                    <div id="collectCountID" class="count">666</div>
+                </div>
+                <div class="iconItem iconLine"><!--点赞-->
+                    <div class="iconBox">
+                        <img class="icon" src="http://127.0.0.1:9000/icon/no.png">
+                    </div>
+                    <div id="pointCountID" class="count">666</div>
+                </div>
+
+                <div class="iconItem iconLine"><!--转发-->
+                    <div class="iconBox">
+                        <img class="icon" src="http://127.0.0.1:9000/icon.republish.png">
+                    </div>
+                    <div id="forwordCountID" class="count">666</div>
+                </div>
+
+                <div class="iconItem iconLine"><!--评论-->
+                    <div class="iconBox">
+                        <img class="icon" src="http://127.0.0.1:9000/icon/comment.png">
+                    </div>
+                    <div id="commentCountID" class="count">666</div>
+                </div>
+
+            </div>
+            <div id="storyCommentShowID" class="storyCommentShow">
+                <div class="storyCommentEdit">
+                    <input type="text" id="storyCommentInputID" class="commentInput" placeholder="说点什么吧！">
+                    <button onclick="setComment(ID)" class="commentButton">评论</button>
+                </div>
+                <div id="storyCommentID" class="storyComment"></div>
+            </div>
+        </div>
+
+
+        <div class="story">
+            <div class="storyUserPictureBox">
+                <img class="storyUserPicture" src="http://127.0.0.1:9000/static/wenjin.jpeg"></img>
+            </div>
+            <div class="name-timeE">
+                <div class="storyUserName">
+                    南司
+                </div>
+                <div class="storyTime">
+                    6月6日 6:6
+                </div>
+            </div>
+            <div class="storyTitle">标题</div>
+            <div class="storyIntroduce">故事简介</div>
+            <div class="iconMenu">
+                <div class="iconItem"><!--收藏-->
+                    <div class="iconBox">
+                        <img class="icon" src="http://127.0.0.1:9000/icon.nav.png">
+                    </div>
+                    <div id="collectCountID1" class="count">666</div>
+                </div>
+                <div class="iconItem iconLine"><!--点赞-->
+                    <div class="iconBox">
+                        <img class="icon" src="http://127.0.0.1:9000/icon/no.png">
+                    </div>
+                    <div id="pointCountID1" class="count">666</div>
+                </div>
+
+                <div class="iconItem iconLine"><!--转发-->
+                    <div class="iconBox">
+                        <img class="icon" src="http://127.0.0.1:9000/icon.republish.png">
+                    </div>
+                    <div id="forwordCountID1" class="count">666</div>
+                </div>
+
+                <div class="iconItem iconLine"><!--评论-->
+                    <div class="iconBox">
+                        <img class="icon" src="http://127.0.0.1:9000/icon/comment.png">
+                    </div>
+                    <div id="commentCountID1" class="count">666</div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>心情发布界面</title>
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/jquery.cookie.js"></script>
+    <script src="js/releaseMood.js"></script>
+    <link rel="stylesheet" href="css/releaseMood.css" type="text/css">
+</head>
+<body style="text-align: center">
+    <div class="title">快来用一句话说说此刻心情或者埋下个小秘密吧！</div>
+    <div class="contentE">
+        <textarea id="content" rows="5" cols="50" placeholder="说说你的心情或者秘密吧"></textarea>
+    </div>
+    <div class="xyTitle">赶快为心情加个坐标或者给你的秘密加组口令吧！</div>
+    <div class="xyE">
+        <span class="xE"><input type="text" id="x" onblur="blurX()" placeholder="x坐标"></span>
+        <span class="yE"><input type="text" id="y" onblur="blurY()" placeholder="y坐标"></span>
+    </div>
+    <div class="info">此坐标已经有小主了，换一组坐标试试呗！</div>
+    <div class="buttonE"><button id="button" onclick="buttonClick()">biu</button></div>
+</body>
+</html>

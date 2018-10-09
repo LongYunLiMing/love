@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表白网登录</title>
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/jquery.cookie.js"></script>
+    <script src="js/Login.js"></script>
+    <link href="css/Register.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div>
+    <font class="title">表白网登录</font>
+</div>
+<div>
+    <span>
+        <input id="name" type="text" placeholder="请输入用户名" onblur="isRegisterName()">
+    </span>
+    <span>
+        <font id="nameinfo" style="display: none">该用户名未注册</font>
+    </span>
+</div>
+<div>
+    <input id="psw" type="password" placeholder="请输入密码">
+</div>
+<div>
+    <button onclick="login()">登&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp录</button>
+</div>
+</body>
+</html>

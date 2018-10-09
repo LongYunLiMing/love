@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>故事详情页面</title>
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/jquery.cookie.js"></script>
+    <script src="js/storyInfo.js"></script>
+    <link rel="stylesheet" href="css/storyInfo.css" type="text/css">
+</head>
+<body style="background-color: khaki">
+        <div id="commentE">
+            <div id="input_button">
+                <textarea id="input" rows="5" cols="10" placeholder="发表一下你的看法吧！"></textarea>
+                <button id="button" onclick="setComment()">发表</button>
+            </div>
+            <div id="commentShow">
+                <div id="comment1" class="comment-top">
+                    <div id="left-top1" class="commentLeft-top">
+                        <div id="floor1" class="floor-one">
+                            <div class="commentPictureBox"><img class="commentPicture" src="http://127.0.0.1:9000/static/wenjin.jpeg"></div>
+                        </div>
+                    </div>
+                    <div id="right-top1" class="commentRight-top">
+                        <div class="commentName">南司</div>
+                        <div class="commentTime">6.6 6:6</div>
+                        <div id="content1" class="commentContentTop">一楼评论区，有天我醒来看到我的身边没有你，的手臂分开始难过不要说楼评论区，有天我醒来看到我的身边没有你，的手臂分开始难过不要说楼评论区，有天我醒来看到我的身边没有你，的手臂分开始难过不要说楼评论区，有天我醒来看到我的身边没有你，的手臂分开始难过不要说楼评论区，有天我醒来看到我的身边没有你，的手臂分开始难过不要说楼评论区，有天我醒来看到我的身边没有你，的手臂分开始难过不要说楼评论区，有天我醒来看到我的身边没有你，的手臂分开始难过不要说楼评论区，有天我醒来看到我的身边没有你，的手臂分开始难过不要说</div>
+                    </div>
+                </div>
+                <div id="comment2" class="comment-left-right" style="width: 100%">
+                    <div class="commentLeft">
+                        <div class="floor">
+                            <div class="commentPictureBox"><img class="commentPicture" src="http://127.0.0.1:9000/static/wenjin.jpeg"></div>
+                        </div>
+                    </div>
+                    <div class="commentRight">
+                        <div class="commentName">南沽木齐</div>
+                        <div class="commentTime">6.6 6:6</div>
+                        <div class="commentContent">二楼评论区</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="comment" onclick="comment()">
+            <div style="position: relative;margin-top: 70%">
+                评论
+            </div>
+        </div>
+        <div id="info">
+            <div class="userPictureBox"><!---->
+                <img id="picture" src="http://127.0.0.1:9000/static/wenjin.jpeg" class="userPicture">
+            </div>
+            <div id="name" class="userName">
+                    南司
+            </div>
+            <div id="time">
+                    2018/9/11 16:29
+            </div>
+        </div>
+        <div id="title">
+            人生只若初见
+        </div>
+
+        <div id="contentShow">
+        </div>
+        <!--<hr size="1" width="100%" style="margin-top: 3%">
+
+        <div style="text-align: center;margin-top: 0%;width: 100%;">
+            <div class="iconE">
+                <div class="iconBox"><img id="point" class="icon" src="http://127.0.0.1:9000/icon/yes.png"></div>
+                <div id="pointCount" class="count">66666666666</div>
+            </div>
+            <div class="iconE">
+                <div class="iconBox"><img id="comment" class="icon" src="http://127.0.0.1:9000/icon/comment.png"></div>
+                <div id="commentCount" class="count">6666666666</div>
+            </div>
+            <div class="iconE">
+                <div class="iconBox"><img id="view" class="icon" src="http://127.0.0.1:9000/icon/no.png"></div>
+                <div id="viewCount" class="count">666666666666</div>
+            </div>
+        </div>
+        -->
+</body>
+</html>

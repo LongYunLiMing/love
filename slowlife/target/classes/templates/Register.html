@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表白网用户注册</title>
+    <script src="jQuery/jquery-3.3.1.min.js"></script>
+    <script src="jQuery/jquery.cookie.js"></script>
+    <script src="js/Register.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/Register.css">
+</head>
+<body>
+<div>
+    <font class="title">表白网注册</font>
+</div>
+<div>
+    <span>
+        <input id="name" type="text" placeholder="请输入用户名" onblur="checkname()">
+    </span>
+    <span>
+        <font id="info" style="display: none">该用户名已存在</font>
+    </span>
+</div>
+<div>
+    <span>
+        <input id="psw" type="password" placeholder="请输入密码">
+    </span>
+</div>
+<div>
+    <span>
+        <input id="repsw" type="password" placeholder="再次输入密码" onblur="checkpsw()">
+    </span>
+    <span>
+        <font id="pswinfo" style="display: none">密码不匹配</font>
+    </span>
+</div>
+<div>
+    <button onclick="register()">注&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp册</button>
+</div>
+<div>
+    <a href="Login.html">已有账号？直接登录吧！</a>
+</div>
+</body>
+</html>
